@@ -16,7 +16,7 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "015e5380-7204-11f0-8edc-3744b460a79a"
     },
-    "image" : "tb-image;/api/images/tenant/alien-svgrepo-com.svg",
+    "image" : null,
     "name" : "OTA software profile",
     "profileData" : {
       "alarms" : null,

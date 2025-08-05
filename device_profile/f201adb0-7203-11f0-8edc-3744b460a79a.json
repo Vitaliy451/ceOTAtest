@@ -16,7 +16,7 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "f201adb0-7203-11f0-8edc-3744b460a79a"
     },
-    "image" : "tb-image;/api/images/tenant/profile-icon-design-free-vector.jpg",
+    "image" : null,
     "name" : "OTA firmware profile",
     "profileData" : {
       "alarms" : null,
