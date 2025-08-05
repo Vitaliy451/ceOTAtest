@@ -13,7 +13,10 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "f201adb0-7203-11f0-8edc-3744b460a79a"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "OTA_PACKAGE",
+      "id" : "25156480-7204-11f0-8edc-3744b460a79a"
+    },
     "fileName" : "devprof.json",
     "hasData" : true,
     "id" : {

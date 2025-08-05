@@ -22,7 +22,10 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "015e5380-7204-11f0-8edc-3744b460a79a"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "edf2bfb0-7204-11f0-8edc-3744b460a79a"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
@@ -48,7 +51,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1754402594725,
+      "lastUpdateTs" : 1754404357384,
       "longValue" : null,
       "strValue" : null
     } ],
@@ -57,7 +60,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "sw_checksum",
-      "lastUpdateTs" : 1754402803393,
+      "lastUpdateTs" : 1754404357341,
       "longValue" : null,
       "strValue" : "7bd3082b1d5150d90c015f1cf88f03bc780a52e7b6d348f7b242a0c94d1cdbe9"
     }, {
@@ -65,7 +68,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "sw_checksum_algorithm",
-      "lastUpdateTs" : 1754402803393,
+      "lastUpdateTs" : 1754404357341,
       "longValue" : null,
       "strValue" : "SHA256"
     }, {
@@ -73,7 +76,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "sw_size",
-      "lastUpdateTs" : 1754402803393,
+      "lastUpdateTs" : 1754404357341,
       "longValue" : 25005,
       "strValue" : null
     }, {
@@ -81,7 +84,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "sw_tag",
-      "lastUpdateTs" : 1754402803393,
+      "lastUpdateTs" : 1754404357341,
       "longValue" : null,
       "strValue" : "OTAsoftware 1.2"
     }, {
@@ -89,7 +92,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "sw_title",
-      "lastUpdateTs" : 1754402803393,
+      "lastUpdateTs" : 1754404357341,
       "longValue" : null,
       "strValue" : "OTAsoftware"
     }, {
@@ -97,7 +100,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "sw_version",
-      "lastUpdateTs" : 1754402803393,
+      "lastUpdateTs" : 1754404357341,
       "longValue" : null,
       "strValue" : "1.2"
     } ]
