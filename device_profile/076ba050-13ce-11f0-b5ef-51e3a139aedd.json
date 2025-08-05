@@ -1,0 +1,82 @@
+{
+  "entityType" : "DEVICE_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : null,
+    "defaultEdgeRuleChainId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : null,
+    "description" : "",
+    "externalId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "076ba050-13ce-11f0-b5ef-51e3a139aedd"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "076ba050-13ce-11f0-b5ef-51e3a139aedd"
+    },
+    "image" : "tb-image;/api/images/tenant/Vitaliy tenant icon.png",
+    "name" : "SYS adm test",
+    "profileData" : {
+      "alarms" : null,
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "provisionConfiguration" : {
+        "type" : "DISABLED",
+        "provisionDeviceSecret" : null
+      },
+      "transportConfiguration" : {
+        "type" : "LWM2M",
+        "bootstrap" : [ {
+          "securityMode" : "NO_SEC",
+          "binding" : "U",
+          "bootstrapServerAccountTimeout" : 0,
+          "bootstrapServerIs" : false,
+          "clientHoldOffTime" : 1,
+          "defaultMinPeriod" : 1,
+          "host" : "0.0.0.0",
+          "lifetime" : 300,
+          "notifIfDisabled" : true,
+          "port" : 5685,
+          "serverCertificate" : "",
+          "serverPublicKey" : "",
+          "shortServerId" : 123
+        } ],
+        "bootstrapServerUpdateEnable" : false,
+        "clientLwM2mSettings" : {
+          "clientOnlyObserveAfterConnect" : 1,
+          "defaultObjectIDVer" : "1.0",
+          "edrxCycle" : 81000,
+          "fwUpdateResource" : null,
+          "fwUpdateStrategy" : 1,
+          "pagingTransmissionWindow" : 10000,
+          "powerMode" : "DRX",
+          "psmActivityTimer" : 10000,
+          "swUpdateResource" : null,
+          "swUpdateStrategy" : 1,
+          "useObject19ForOtaInfo" : null
+        },
+        "observeAttr" : {
+          "attribute" : [ ],
+          "attributeLwm2m" : { },
+          "keyName" : { },
+          "observe" : [ ],
+          "observeStrategy" : "SINGLE",
+          "telemetry" : [ ]
+        }
+      }
+    },
+    "provisionDeviceKey" : null,
+    "provisionType" : "DISABLED",
+    "softwareId" : null,
+    "transportType" : "LWM2M",
+    "type" : "DEFAULT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

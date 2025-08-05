@@ -1,0 +1,106 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "015e5380-7204-11f0-8edc-3744b460a79a"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "edf2bfb0-7204-11f0-8edc-3744b460a79a"
+    },
+    "label" : "",
+    "name" : "softwareDevice",
+    "softwareId" : {
+      "entityType" : "OTA_PACKAGE",
+      "id" : "5c2d21f0-7205-11f0-8edc-3744b460a79a"
+    },
+    "type" : "OTA software profile"
+  },
+  "credentials" : {
+    "credentialsId" : "JZl643ypW6B0cqGd4It9",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1754402594725,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sw_checksum",
+      "lastUpdateTs" : 1754402803393,
+      "longValue" : null,
+      "strValue" : "7bd3082b1d5150d90c015f1cf88f03bc780a52e7b6d348f7b242a0c94d1cdbe9"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sw_checksum_algorithm",
+      "lastUpdateTs" : 1754402803393,
+      "longValue" : null,
+      "strValue" : "SHA256"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sw_size",
+      "lastUpdateTs" : 1754402803393,
+      "longValue" : 25005,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sw_tag",
+      "lastUpdateTs" : 1754402803393,
+      "longValue" : null,
+      "strValue" : "OTAsoftware 1.2"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sw_title",
+      "lastUpdateTs" : 1754402803393,
+      "longValue" : null,
+      "strValue" : "OTAsoftware"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sw_version",
+      "lastUpdateTs" : 1754402803393,
+      "longValue" : null,
+      "strValue" : "1.2"
+    } ]
+  },
+  "calculatedFields" : [ ]
+}
