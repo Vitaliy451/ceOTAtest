@@ -11,10 +11,7 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "f201adb0-7203-11f0-8edc-3744b460a79a"
     },
-    "firmwareId" : {
-      "entityType" : "OTA_PACKAGE",
-      "id" : "25156480-7204-11f0-8edc-3744b460a79a"
-    },
+    "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE_PROFILE",
       "id" : "f201adb0-7203-11f0-8edc-3744b460a79a"

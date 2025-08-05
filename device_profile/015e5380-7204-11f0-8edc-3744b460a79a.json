@@ -33,10 +33,7 @@
     },
     "provisionDeviceKey" : null,
     "provisionType" : "DISABLED",
-    "softwareId" : {
-      "entityType" : "OTA_PACKAGE",
-      "id" : "5c2d21f0-7205-11f0-8edc-3744b460a79a"
-    },
+    "softwareId" : null,
     "transportType" : "DEFAULT",
     "type" : "DEFAULT"
   },
